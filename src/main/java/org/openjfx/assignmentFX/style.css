@@ -1,0 +1,59 @@
+
+.root{
+	-fx-background-color:white;
+}
+.baseContainer{
+	 -fx-alignment: center ;
+}
+
+
+.loginPrompt,.actionPrompt,.amountPrompt{
+	-fx-font-weight:bold;
+	-fx-font-size:24px;
+	-fx-font-family:'Calibri';
+
+}
+
+.accountNumberInput,.passwordInput,.amount{
+
+	-fx-font-size:20px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.accountNumberLabel,.passwordLabel,.receipt{
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.error{
+	-fx-text-fill:red;
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.submitButton,.withdrawButton,.depositButton,.historyButton,.amounts{
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.petrolButton,.oilButton,.gasButton,.startButton,.stopButton,.returnActionsButton,.returLoginButton{
+		-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.pressedButton{
+	
+	-fx-background-color:gray;
+}
+
+.fuelAmount,.moneyCost{
+		-fx-font-size:72px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
